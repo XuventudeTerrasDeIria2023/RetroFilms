@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>RETRO FILMS</title>
@@ -7,11 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="favicon.png" type="favicon">
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 </head>
+
 <body>
     <div class="wrapper">
         <!-- HEADER -->
@@ -19,10 +18,6 @@
             <div class="logo">
                 <a id="logo" href="#home"><img src="logo2.png" alt="Logo Image"></a>
             </div>
-            <nav class="sub-nav">
-                <a href="#"><i class="fas fa-search sub-nav-logo"></i></a>
-                <a href="#"><i class="fas fa-bell sub-nav-logo"></i></a>
-            </nav>
         </header>
         <!-- END OF HEADER -->
         <!-- MAIN CONTAINER -->
@@ -35,7 +30,7 @@
                     <a href="tv/thethirdman.html"><img src="tv/imagenes/The-Third-Man.jpg" alt="The third man" title="The third man"></a>
                     <a href="tv/tokillamockingbird.html"><img src="tv/imagenes/To%20Kill%20a%20Mockingbird.jpg" alt="To kill a monckingbird" title="To kill a monchingbird"></a>
                     <a href="tv/touchofevil.html"><img src="tv/imagenes/Touch%20of%20Evil.png" alt="Touch of evil" title="Touch of evil"></a>
-                   
+
                 </div>
             </div>
             <div class="location" class="home">
@@ -55,7 +50,7 @@
                     <a href="tv/metropolis.html"><img src="tv/imagenes/metropolis.jpg" alt="Metrópolis" title="Metrópolis"></a>
                 </div>
             </div>
-              <div class="location" class="home">
+            <div class="location" class="home">
                 <h1 class="home">Otras...</h1>
                 <div class="box">
                     <a href="tv/moderntimes.html"><img src="tv/imagenes/Modern%20Times.jpg" alt="Modern times" title="Modern times"></a>
@@ -71,63 +66,63 @@
                     <a href="tv/thenightofthehunter.html"><img src="tv/imagenes/The%20Night%20of%20the%20Hunter.jpg" alt="The night of the hunter" title="The night of the hunter"></a>
                 </div>
             </div>
-            
+
             <!-- END OF MAIN CONTAINER -->
-             <!-- SCROLL TO TOP BUTTON -->
-        <a href="#" class="scroll-to-top" id="scrollToTopBtn">
-          <i class="fas fa-arrow-up"></i>
-        </a>
+            <!-- SCROLL TO TOP BUTTON -->
+            <a href="#" class="scroll-to-top" id="scrollToTopBtn">
+                <i class="fas fa-arrow-up"></i>
+            </a>
             <!-- END OF LINKS -->
             <!-- FOOTER -->
             <footer>
-          <div class="footer-container">
-            <div class="footer-logo">
-              <a href="#home"
-                ><img src="logo2.png" alt="Retro Films Logo"
-              /></a>
-            </div>
-            <div class="footer-links">
-              <a href="#">Politica de privacidad</a>
-              <a href="#">Terminos y servicios</a>
-              <a href="#">Contactanos</a>
-            </div>
-            <div class="footer-social">
-              <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
-              <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-              <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
-              <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
-            </div>
-          </div>
-          <p>&copy; 2024 Retro Films, Inc. All Rights Reserved.</p>
-        </footer>
-        <script>
-          // Show the button when the user scrolls down 100px from the top
-          window.onscroll = function () {
-            scrollFunction();
-          };
+                <div class="footer-container">
+                    <div class="footer-logo">
+                        <a href="#home"><img src="logo2.png" alt="Retro Films Logo" /></a>
+                    </div>
+                    <div class="footer-links">
+                        <a href="politicaprivacidad.pdf" target="_blank">Politica de privacidad</a>
+                    </div>
+                    <div class="footer-social">
+                        <a href="https://es-es.facebook.com/" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+                        <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+                    </div>
+                </div>
+                <p>&copy; 2024 Retro Films, Inc.</p>
+                <p>Miguel Vaamonde, Miguel Jimenez, Rubén García, Paula Fernández</p>
+            </footer>
+            <script>
+                // Show the button when the user scrolls down 100px from the top
+                window.onscroll = function() {
+                    scrollFunction();
+                };
 
-          function scrollFunction() {
-            const scrollBtn = document.getElementById("scrollToTopBtn");
-            if (
-              document.body.scrollTop > 100 ||
-              document.documentElement.scrollTop > 100
-            ) {
-              scrollBtn.classList.add("show");
-            } else {
-              scrollBtn.classList.remove("show");
-            }
-          }
+                function scrollFunction() {
+                    const scrollBtn = document.getElementById("scrollToTopBtn");
+                    if (
+                        document.body.scrollTop > 100 ||
+                        document.documentElement.scrollTop > 100
+                    ) {
+                        scrollBtn.classList.add("show");
+                    } else {
+                        scrollBtn.classList.remove("show");
+                    }
+                }
 
-          // Smooth scroll to top when the button is clicked
-          document
-            .getElementById("scrollToTopBtn")
-            .addEventListener("click", function (e) {
-              e.preventDefault();
-              window.scroll({ top: 0, behavior: "smooth" });
-            });
-        </script>
+                // Smooth scroll to top when the button is clicked
+                document
+                    .getElementById("scrollToTopBtn")
+                    .addEventListener("click", function(e) {
+                        e.preventDefault();
+                        window.scroll({
+                            top: 0,
+                            behavior: "smooth"
+                        });
+                    });
+
+            </script>
         </section>
     </div>
 </body>
-</html>
 
+</html>
